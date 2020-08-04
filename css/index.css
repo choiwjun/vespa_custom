@@ -1,0 +1,43 @@
+body{font-size:62.5%}
+html,body{height:100%;overflow:hidden;}
+.index_wrap_bg{
+    background-image:url('../images/bg_index_hero.png'); 
+    height:100%;display: flex;flex-direction: row;
+    width:100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.arrow{position: absolute;}
+.prev{top:39%;left:2rem;}
+.prev img{float:right;width:4.3rem;height:8rem;}
+.next{top:39%;right:2rem;}
+.next img{float:right;width:4.3rem;height:8rem;}
+
+.btn_move_hero_stat{
+    position: absolute;
+    top:22%;
+    left:8%;
+    background-image:url('../images/btn_hero_stat.png'); 
+    width:25%;
+    height:50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    text-align: center;
+    display: inline-block
+}
+.btn_move_hero_stat img{width:30%;position: absolute;left:35%;top:28%}
+.btn_move_content_stat{
+    position: absolute;
+    top:22%;
+    right:8%;
+    background-image:url('../images/btn_content_stat_test.png'); 
+    width:25%;
+    height:50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+.btn_move_content_stat img{width:39%;position: absolute;left:30%;top:28%}
